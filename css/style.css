@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* h1 kodları*/
+
+h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 20px;
+}
+
+h1>span{
+    color: #000; /*renk kodu*/
+}
+
+/* linklerin kodları */
+
+.link{
+    float: right;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+
+.link>ul>li{
+    list-style: none;
+    display: inline;
+    margin: 0 12px;
+}
+
+.link a{
+    color: rgba(58, 16, 141, 0.614); 
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+/* section kodları */
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body > section > h2{
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 20px #000;
+}
+
+body > section > h2 > span{
+    color: #000;
+}
+
+section > p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section > a{
+    color: darkgreen;
+    background-color: #BF9066;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 3px solid orange;
+    margin: 10px;
+    padding: 3px 15px;
+}
+
+section > a:hover{
+    border: 3px solid yellow; 
+}
